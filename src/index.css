@@ -1,0 +1,9 @@
+@tailwind base ;
+@tailwind components ;
+@tailwind utilities; 
+
+@layer components {
+    .p-section {
+        @apply text-grayishBlue p-5 ;
+    }
+}
