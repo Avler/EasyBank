@@ -1,3 +1,3 @@
-# EasyBank
+# EasyBank 
 
-Responsive EasyBank porject using React and Tailwindcss
+Responsive EasyBank project using React and Tailwindcss
