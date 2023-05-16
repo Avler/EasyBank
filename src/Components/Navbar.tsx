@@ -1,5 +1,8 @@
 import React , {useState} from "react"
 import logo from "../assets/images/logo.svg"
+import close from "/assets/images/icon-close.svg"
+import hamburger from "../assets/images/icon-hamburger.svg"
+
 function Navbar() {
 
     const [navham , setNavham] = useState<boolean>(false)
@@ -13,7 +16,7 @@ function Navbar() {
         <div className="fixed  z-20 md:static md:flex md:flex-row md:my-5  lg:px-10">
             <nav className="w-screen  flex justify-between p-6 fixed  bg-white md:static md:p-2 lg:basis-2/3">
                 <img src={logo} alt="logo" />
-                <img src={navham ? "src/assets/images/icon-close.svg" : "src/assets/images/icon-hamburger.svg" } alt="hamburger" onClick={hamMenu} className="md:hidden"/>
+                <img src={navham ? close : hamburger } alt="hamburger" onClick={hamMenu} className="md:hidden"/>
             </nav>
             <div className={navham ? "w-screen  fixed top-20 px-5 md:static" : "w-screen   fixed top-20 px-5 hidden md:static md:block   " } >
                 <ul className="  flex  flex-col w-25 text-center text-2xl text-darkBlue bg-white gap-1 md:flex-row ">
