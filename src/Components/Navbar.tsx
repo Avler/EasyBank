@@ -1,6 +1,6 @@
 import React , {useState} from "react"
 import logo from "../assets/images/logo.svg"
-import close from "/assets/images/icon-close.svg"
+import close from "../assets/images/icon-close.svg"
 import hamburger from "../assets/images/icon-hamburger.svg"
 
 function Navbar() {
